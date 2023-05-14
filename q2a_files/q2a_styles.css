@@ -1,0 +1,72 @@
+
+body {
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#signin{
+		margin-top: 35px;
+		display: inline-block;
+		margin-left: 780px;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		text-align: justify;
+		position: absolute;
+}
+
+#logo{
+		height: auto;
+		width: auto;
+		position: absolute;
+		margin: 0 auto;
+		display: inline-flex;
+}
+
+.navigation {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	text-align: justify;
+	margin-left: 250px;
+	margin-top: 70px;
+	position: relative;
+	display: inline-flex;
+}
+
+#heading {
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		font-size: 12pt;
+		text-align: center;
+		margin-top: 90px;
+		position: relative;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+
+#forminfo {
+		margin: 0 auto;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		background-color: #ffef8a;
+		width: 500px;
+}
+
+textarea {
+	margin-bottom: 20px;
+}
+
+.footer {
+	position: absolute; left: 24px; top: 780px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-left: 80px;
+}
+

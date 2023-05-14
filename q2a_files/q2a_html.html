@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>New Walk Submission Form</title>
+  <meta name="keywords" content="Add a New Walk Form"/>
+  <meta name="author" content="Katy Douglas"/>
+  <link rel="stylesheet" href="q2a_styles.css"/>
+</head>
+
+<body>
+<div id= "logo"> <img src= "logo.png" alt="Open University Logo"/>
+</div>
+
+<div id= "signin"> Welcome admin | <a href ="logout.html">Logout</a>
+</div>
+
+
+<nav class="navigation">
+<p>
+<a href="home.html">Home | </a>  
+<a href="walkevents.html">Walk Events  |</a>  
+<a href="news+events.html">News and Other Events |</a>  
+<a href="announcements.html">Announcements  |</a>  
+<a href="memberspage">Members Page |</a>  
+</p>
+</nav>
+
+
+<div id="heading"> <h1>New Walk Submission Form</h1> </div>
+
+<!-- Opening Form Element -->
+<form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" 
+method="post">
+
+<input type="hidden" name="sessionID" value="12345678-09ab-1111-cdef" />
+
+<!-- form input fields -->
+
+<div id="forminfo">
+<fieldset> 
+
+<label> Name of Walk:  <input name="walkName" type="text" tabindex='1'/></label>
+
+<label> Date of Walk:  <input name="walkDate" type="date" tabindex='2'/></label>
+
+<label> Start Time: <input name="walkTime" type="time" tabindex='3'/></label>
+
+<label> Meeting Point: <input name="meetingPoint" type="text" tabindex='4'/> </label>
+
+<label> Distance of Walk: <input name = "distance" type="number" tabindex = '5'/> miles </label>
+
+
+<p>Notes: </p>
+<textarea name="Notes" rows="5" cols="50" tabindex='6'>
+</textarea>
+
+<label> Status: <select id="status" name="Status" tabindex = '7'>
+  <option value="Proposed">Proposed</option>
+  <option value="Approved">Approved</option>
+  <option value="Rejected">Rejected</option>
+</select> </label>
+
+<!-- Submit and Reset buttons-->
+<p><input type="submit" name="submit" value="Submit" tabindex = '8' />
+<input type="reset" name="reset" value="Clear Form" tabindex='9'/></p>
+
+</fieldset>
+</div>
+
+</form>
+
+<footer class="footer">&copy; 2020 Katy Douglas.</footer>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+
+body {
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#signin{
+		margin-top: 35px;
+		display: inline-block;
+		margin-left: 780px;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		text-align: justify;
+		position: absolute;
+}
+
+#logo{
+		height: auto;
+		width: auto;
+		position: absolute;
+		margin: 0 auto;
+		display: inline-flex;
+}
+
+.navigation {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	text-align: justify;
+	margin-left: 250px;
+	margin-top: 70px;
+	position: relative;
+	display: inline-flex;
+}
+
+#heading {
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		font-size: 12pt;
+		text-align: center;
+		margin-top: 90px;
+		position: relative;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+
+#forminfo {
+		margin: 0 auto;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		background-color: #ffef8a;
+		width: 500px;
+}
+
+textarea {
+	margin-bottom: 20px;
+}
+
+.footer {
+	position: absolute; left: 24px; top: 780px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-left: 80px;
+}
+
+
+
+@media screen and (max-width: 375px){
+	
+  body{ /*content fits the screen better*/
+	  margin-left: 10px;
+	  margin-top: 10px;
+  }
+  
+  #signin{
+		margin: 0 auto;
+		display: block;
+		position: relative;
+}
+  
+  /*allows the form fields to tuck underneath the labels*/
+  label, input {
+	  display: block;
+	}
+
+	label {
+    margin-bottom: 20px;
+	}
+	
+  /*used to make the textarea responsive to the size of the screen*/
+  textarea{
+	  width: 100%;
+	  overflow: auto;
+  }
+  
+  /*changes the size of the fieldset to screen*/
+  #forminfo {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /*keeps the navigation pane centred for the screen*/
+  .navigation {
+	  margin: 0 auto;
+	  text-align: center;
+	  width: 100%;
+  }
+  
+  #heading{
+	  width: 100%;
+	  text-align: center;
+	  position: relative;
+  }
+  
+  /*stops the logo from covering text*/
+	#logo {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	/*moves the footer to a sensible position instead of too far down the page*/
+	.footer{
+		position: relative;
+		top: 90px;
+	}
+}
+
